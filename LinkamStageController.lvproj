@@ -9,6 +9,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -18,13 +19,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="AddText2Image.vi" Type="VI" URL="../AddText2Image.vi"/>
-		<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
-		<Item Name="Image-GFV.vi" Type="VI" URL="../Image-GFV.vi"/>
-		<Item Name="ImageEnum4GFV.ctl" Type="VI" URL="../ImageEnum4GFV.ctl"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="ImageEnum4GFV.ctl" Type="VI" URL="../ImageEnum4GFV.ctl"/>
+			<Item Name="Mag.ctl" Type="VI" URL="../Mag.ctl"/>
+			<Item Name="TextOnImage.ctl" Type="VI" URL="../TextOnImage.ctl"/>
+		</Item>
+		<Item Name="Helper functions" Type="Folder">
+			<Item Name="AddText2Image.vi" Type="VI" URL="../AddText2Image.vi"/>
+			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
+		</Item>
+		<Item Name="Model files" Type="Folder">
+			<Item Name="Image-GFV.vi" Type="VI" URL="../Image-GFV.vi"/>
+		</Item>
+		<Item Name="State Machine files" Type="Folder">
+			<Item Name="Timer Global Function Variable.vi" Type="VI" URL="../Timer Global Function Variable.vi"/>
+			<Item Name="SweepTemperatureStateMachine.vi" Type="VI" URL="../SweepTemperatureStateMachine.vi"/>
+		</Item>
 		<Item Name="LinkamStageController.vi" Type="VI" URL="../LinkamStageController.vi"/>
-		<Item Name="Mag.ctl" Type="VI" URL="../Mag.ctl"/>
-		<Item Name="TextOnImage.ctl" Type="VI" URL="../TextOnImage.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -90,7 +101,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			<Item Name="Request Temperature Global Function Variable.vi" Type="VI" URL="../Request Temperature Global Function Variable.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
