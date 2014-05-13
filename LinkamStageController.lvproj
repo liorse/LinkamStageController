@@ -38,10 +38,12 @@
 			<Item Name="Timer Global Function Variable.vi" Type="VI" URL="../Timer Global Function Variable.vi"/>
 			<Item Name="SweepTemperatureStateMachine.vi" Type="VI" URL="../SweepTemperatureStateMachine.vi"/>
 			<Item Name="RampStateMachine.vi" Type="VI" URL="../RampStateMachine.vi"/>
+			<Item Name="NewExperimentDialog.vi" Type="VI" URL="../NewExperimentDialog.vi"/>
 		</Item>
 		<Item Name="LinkamStageController.vi" Type="VI" URL="../LinkamStageController.vi"/>
 		<Item Name="RampProgramModel.lvclass" Type="LVClass" URL="../RampProgramModel/RampProgramModel.lvclass"/>
 		<Item Name="DecorateTable.vi" Type="VI" URL="../DecorateTable.vi"/>
+		<Item Name="AVI recoder state.ctl" Type="VI" URL="../AVI recoder state.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -124,6 +126,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
