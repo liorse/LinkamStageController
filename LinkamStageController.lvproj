@@ -27,6 +27,7 @@
 		<Item Name="Helper functions" Type="Folder">
 			<Item Name="AddText2Image.vi" Type="VI" URL="../AddText2Image.vi"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
+			<Item Name="AviFrameReader.vi" Type="VI" URL="../AviFrameReader.vi"/>
 		</Item>
 		<Item Name="Model files" Type="Folder">
 			<Item Name="Image-GFV.vi" Type="VI" URL="../Image-GFV.vi"/>
@@ -47,6 +48,7 @@
 		<Item Name="Ascii Experiment Data.ctl" Type="VI" URL="../Ascii Experiment Data.ctl"/>
 		<Item Name="SaveExperimentDataToAsciiFile.vi" Type="VI" URL="../SaveExperimentDataToAsciiFile.vi"/>
 		<Item Name="AddRecordingOverlay2Image.vi" Type="VI" URL="../AddRecordingOverlay2Image.vi"/>
+		<Item Name="DateandTime.ctl" Type="VI" URL="../DateandTime.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -129,6 +131,8 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="IMAQ AVI2 Read Frame" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Read Frame"/>
+				<Item Name="IMAQ AVI2 Open" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Open"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
