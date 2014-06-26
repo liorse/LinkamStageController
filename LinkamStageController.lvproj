@@ -146,6 +146,47 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="LinkamStageandCameraSuite" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{287A4784-5B15-4DAC-8EE7-31DE0AE2C492}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{600C63DF-B940-4133-AD78-B74DBB99D341}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{537F3F94-437A-48B5-A419-8AD70E714315}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LinkamStageandCameraSuite</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LinkamStageandCameraSuite</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2DA14BC3-9DA7-4D5D-B64C-12728BB7E2CE}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LinkamStageandCameraSuite.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LinkamStageandCameraSuite/LinkamStageandCameraSuite.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LinkamStageandCameraSuite/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B5FBADB4-0196-4091-9EDE-F917478C44E7}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LinkamStageController.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LinkamStageandCameraSuite</Property>
+				<Property Name="TgtF_internalName" Type="Str">LinkamStageandCameraSuite</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Weizmann Institute of Science</Property>
+				<Property Name="TgtF_productName" Type="Str">LinkamStageandCameraSuite</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0CA93A13-F4FA-48D3-9D30-1624732A273A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LinkamStageandCameraSuite.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
