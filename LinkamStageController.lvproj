@@ -28,6 +28,7 @@
 			<Item Name="AddText2Image.vi" Type="VI" URL="../AddText2Image.vi"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
 			<Item Name="AviFrameReader.vi" Type="VI" URL="../AviFrameReader.vi"/>
+			<Item Name="TestForScaleInImageTextbox.vi" Type="VI" URL="../TestForScaleInImageTextbox.vi"/>
 		</Item>
 		<Item Name="Model files" Type="Folder">
 			<Item Name="Image-GFV.vi" Type="VI" URL="../Image-GFV.vi"/>
@@ -135,6 +136,7 @@
 				<Item Name="IMAQ AVI2 Open" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Open"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
