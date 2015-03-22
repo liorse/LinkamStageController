@@ -47,6 +47,7 @@
 			<Item Name="DropDetectionForLinkam.vi" Type="VI" URL="../DropDetectionForLinkam.vi"/>
 			<Item Name="ConvertCircleToBoundingBox.vi" Type="VI" URL="../ConvertCircleToBoundingBox.vi"/>
 			<Item Name="ConvertBoundingRect2fourpoints.vi" Type="VI" URL="../ConvertBoundingRect2fourpoints.vi"/>
+			<Item Name="AddDropletDetectionOverlay2Image.vi" Type="VI" URL="../AddDropletDetectionOverlay2Image.vi"/>
 		</Item>
 		<Item Name="LinkamStageController.vi" Type="VI" URL="../LinkamStageController.vi"/>
 		<Item Name="RampProgramModel.lvclass" Type="LVClass" URL="../RampProgramModel/RampProgramModel.lvclass"/>
@@ -56,7 +57,6 @@
 		<Item Name="SaveExperimentDataToAsciiFile.vi" Type="VI" URL="../SaveExperimentDataToAsciiFile.vi"/>
 		<Item Name="AddRecordingOverlay2Image.vi" Type="VI" URL="../AddRecordingOverlay2Image.vi"/>
 		<Item Name="DateandTime.ctl" Type="VI" URL="../DateandTime.ctl"/>
-		<Item Name="AddDropletDetectionOverlay2Image.vi" Type="VI" URL="../AddDropletDetectionOverlay2Image.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -162,6 +162,7 @@
 				<Item Name="IMAQ Convert To Shape Detection Match Options Internal" Type="VI" URL="/&lt;vilib&gt;/vision/Shape Detection.llb/IMAQ Convert To Shape Detection Match Options Internal"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="IMAQ Convert Annulus to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Annulus to ROI"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
