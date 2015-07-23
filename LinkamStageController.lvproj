@@ -23,12 +23,20 @@
 			<Item Name="ImageEnum4GFV.ctl" Type="VI" URL="../ImageEnum4GFV.ctl"/>
 			<Item Name="Mag.ctl" Type="VI" URL="../Mag.ctl"/>
 			<Item Name="TextOnImage.ctl" Type="VI" URL="../TextOnImage.ctl"/>
+			<Item Name="AVI recoder state.ctl" Type="VI" URL="../AVI recoder state.ctl"/>
+			<Item Name="Ascii Experiment Data.ctl" Type="VI" URL="../Ascii Experiment Data.ctl"/>
 		</Item>
 		<Item Name="Helper functions" Type="Folder">
 			<Item Name="AddText2Image.vi" Type="VI" URL="../AddText2Image.vi"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
 			<Item Name="AviFrameReader.vi" Type="VI" URL="../AviFrameReader.vi"/>
 			<Item Name="TestForScaleInImageTextbox.vi" Type="VI" URL="../TestForScaleInImageTextbox.vi"/>
+			<Item Name="SaveExperimentDataToAsciiFile.vi" Type="VI" URL="../SaveExperimentDataToAsciiFile.vi"/>
+			<Item Name="DecorateTable.vi" Type="VI" URL="../DecorateTable.vi"/>
+			<Item Name="AddRecordingOverlay2Image.vi" Type="VI" URL="../AddRecordingOverlay2Image.vi"/>
+			<Item Name="DateandTime.ctl" Type="VI" URL="../DateandTime.ctl"/>
+			<Item Name="StepperMotorController.vi" Type="VI" URL="../StepperMotorController.vi"/>
+			<Item Name="RampProgramModel.lvclass" Type="LVClass" URL="../RampProgramModel/RampProgramModel.lvclass"/>
 		</Item>
 		<Item Name="Model files" Type="Folder">
 			<Item Name="Image-GFV.vi" Type="VI" URL="../Image-GFV.vi"/>
@@ -49,15 +57,13 @@
 			<Item Name="ConvertBoundingRect2fourpoints.vi" Type="VI" URL="../ConvertBoundingRect2fourpoints.vi"/>
 			<Item Name="AddDropletDetectionOverlay2Image.vi" Type="VI" URL="../AddDropletDetectionOverlay2Image.vi"/>
 		</Item>
+		<Item Name="Configuration Files" Type="Folder">
+			<Item Name="LenCameraCalibration.csv" Type="Document" URL="../LenCameraCalibration.csv"/>
+		</Item>
 		<Item Name="LinkamStageController.vi" Type="VI" URL="../LinkamStageController.vi"/>
-		<Item Name="RampProgramModel.lvclass" Type="LVClass" URL="../RampProgramModel/RampProgramModel.lvclass"/>
-		<Item Name="DecorateTable.vi" Type="VI" URL="../DecorateTable.vi"/>
-		<Item Name="AVI recoder state.ctl" Type="VI" URL="../AVI recoder state.ctl"/>
-		<Item Name="Ascii Experiment Data.ctl" Type="VI" URL="../Ascii Experiment Data.ctl"/>
-		<Item Name="SaveExperimentDataToAsciiFile.vi" Type="VI" URL="../SaveExperimentDataToAsciiFile.vi"/>
-		<Item Name="AddRecordingOverlay2Image.vi" Type="VI" URL="../AddRecordingOverlay2Image.vi"/>
-		<Item Name="DateandTime.ctl" Type="VI" URL="../DateandTime.ctl"/>
-		<Item Name="StepperMotorController.vi" Type="VI" URL="../StepperMotorController.vi"/>
+		<Item Name="LensAndCameraCalibration-GFV.vi" Type="VI" URL="../LensAndCameraCalibration-GFV.vi"/>
+		<Item Name="LensCalibrationCtlGFV.ctl" Type="VI" URL="../LensCalibrationCtlGFV.ctl"/>
+		<Item Name="LensCalibrationModel.ctl" Type="VI" URL="../LensCalibrationModel.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -168,6 +174,9 @@
 				<Item Name="IMAQ Rounding Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rounding Mode.ctl"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="LabVIEW Interface for Arduino.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Interface for Arduino/LabVIEW Interface for Arduino.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -205,13 +214,16 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LinkamStageandCameraSuite/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{96D8E0FF-DE1B-4A25-8ADD-07F89D97C5AD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87BBD084-2113-49BA-A5F6-38B1F429CDBE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LinkamStageController.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Configuration Files/LenCameraCalibration.csv</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LinkamStageandCameraSuite</Property>
