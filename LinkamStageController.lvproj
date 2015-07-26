@@ -214,7 +214,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LinkamStageandCameraSuite/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87BBD084-2113-49BA-A5F6-38B1F429CDBE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9BC8A8C1-A4BC-4B9F-BBFD-0D777B39B05F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LinkamStageController.vi</Property>
@@ -222,7 +222,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Configuration Files/LenCameraCalibration.csv</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
