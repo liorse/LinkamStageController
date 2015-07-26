@@ -7,3 +7,4 @@ Lens Mag,Micron Per Pixel,Scale in microns,High Resolution
 20x_LM,0.333333333,10,TRUE
 50x_S,0.135135135,5,TRUE
 100x_im,0.058479532,5,TRUE
+15x_LM,0.312,20,FALSE
