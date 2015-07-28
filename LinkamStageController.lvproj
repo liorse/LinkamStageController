@@ -204,7 +204,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/T/LabBox/Software/IceNucleation/Linkam Stage and Capture</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2DA14BC3-9DA7-4D5D-B64C-12728BB7E2CE}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LinkamStageandCameraSuite.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/T/LabBox/Software/IceNucleation/Linkam Stage and Capture/LinkamStageandCameraSuite.exe</Property>
