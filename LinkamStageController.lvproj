@@ -60,6 +60,9 @@
 		<Item Name="Configuration Files" Type="Folder">
 			<Item Name="LenCameraCalibration.csv" Type="Document" URL="../LenCameraCalibration.csv"/>
 		</Item>
+		<Item Name="Icons" Type="Folder" URL="../Icons">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="LinkamStageController.vi" Type="VI" URL="../LinkamStageController.vi"/>
 		<Item Name="LensAndCameraCalibration-GFV.vi" Type="VI" URL="../LensAndCameraCalibration-GFV.vi"/>
 		<Item Name="LensCalibrationCtlGFV.ctl" Type="VI" URL="../LensCalibrationCtlGFV.ctl"/>
@@ -204,7 +207,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/T/LabBox/Software/IceNucleation/Linkam Stage and Capture</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2DA14BC3-9DA7-4D5D-B64C-12728BB7E2CE}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LinkamStageandCameraSuite.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/T/LabBox/Software/IceNucleation/Linkam Stage and Capture/LinkamStageandCameraSuite.exe</Property>
@@ -215,7 +218,8 @@
 				<Property Name="Destination[1].path" Type="Path">/T/LabBox/Software/IceNucleation/Linkam Stage and Capture/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0805ACCC-C721-4604-865E-F1DD60F91BDB}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/LinkamStageControllerIcon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EBAE7B3C-7962-4A80-B2F0-565396CE5845}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LinkamStageController.vi</Property>
